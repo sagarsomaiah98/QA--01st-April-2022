@@ -7,17 +7,18 @@ public class Decrement_Operator {
 		
 		int l=200;
 		
-		l--;
-		l--;
+		l--;// 199
+		l--;//198
+	//	l=l-1; // 197
 		
-		l--;
-		l=l-3;
-		l--;
-		l=l-2;
-		l--;
-		l=l-200;
+		l--;//197
+		l=l-3;//194
+		l--;//193
+		l=l-2;//191
+		l--;//190
+		l=l-200;//-10
 		
-		System.out.println(l);
+		System.out.println(l);//-10
 
 	}
 

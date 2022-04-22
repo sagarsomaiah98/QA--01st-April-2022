@@ -8,7 +8,7 @@ public class If_Example {
 		int age=70;
 		
 		
-		if(age>65)
+		if(age>75)
 		
 		{	
 			System.out.println("Person is Senior Citizen");

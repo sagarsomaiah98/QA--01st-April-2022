@@ -8,7 +8,7 @@ public class OR_operator {
 		
 		int j=6;
 		
-		if(j>10 || j%2==0)
+		if(j>10 || j%2==0) // false || true = true
 			
 			System.out.println(j+ " is even number or greater than 0");
 			

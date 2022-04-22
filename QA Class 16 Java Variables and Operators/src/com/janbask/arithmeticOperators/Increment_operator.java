@@ -7,21 +7,25 @@ public class Increment_operator {
 		
 		int a=12;
 		
-		a++;
+		a++;// a= a+1   13
+	
 		
-		a++;
+	//	System.out.println(a);
 		
-		a++;
+		a++;//14
+//		System.out.println(a);
 		
-		a++;
+		a++;//15
 		
-		a=a+4;
+		a++;//16
 		
-		a++;
-		a=a+2;
+		a=a+4;//20
+		
+		a++;//21
+		a=a+2;//23
 		
 		
-		System.out.println(a);
+		System.out.println(a);//23  
 
 	}
 

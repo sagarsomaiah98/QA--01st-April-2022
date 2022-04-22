@@ -6,12 +6,14 @@ public class AndOperator {
 		// TODO Auto-generated method stub
 		
 		
-		int a=900;int b=500 ;int c=700;
+		int a=10;int b=10 ;int c=700;
 		
-		if((a>b)& (a>c))
-			System.out.println("a is bigger");
-		else
-			System.out.println("a is not bigger");
+		/*
+		 * if((a>b)& (a>c)) System.out.println("a is bigger"); else
+		 * System.out.println("a is not bigger");
+		 */
+		
+		System.out.println(a&b);
 
 	}
 
