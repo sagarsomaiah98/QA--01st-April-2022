@@ -6,8 +6,10 @@ public class Do_While {
 		
 		
 		int i=1;  
+		
 	    do{  
-	        System.out.println(i);  
+	        
+	    System.out.println(i);  
 	    i++;  
 	    }
 	    while(i<=1);  
