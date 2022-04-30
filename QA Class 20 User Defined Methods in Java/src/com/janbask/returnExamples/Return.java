@@ -16,6 +16,13 @@ public class Return {
 		
 		
 		System.out.println(mult(10,20));
+		
+		int a=mult(10,20);
+		if(a%2==0)
+			System.out.println("even");
+		else
+			System.out.println("odd");
+		
 		System.out.println(mult(9,7));
 		
 		System.out.println(mult(6,7));
