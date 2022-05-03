@@ -4,10 +4,16 @@ public class Static_Keyword {
  //Static keywords
 	
 	
+	char grade='D';
 	
 	static int value= 20;  //Global variables
 	
 	static String name =" London"; // global variables
+	
+	public void method3() {
+		
+		System.out.println("method 3");
+	}
 	
 	public static  void method1() {
 		
@@ -20,17 +26,17 @@ public class Static_Keyword {
 
 	public static void main(String[] args) {
 		
-		/*
-		 * Static_Keyword sk = new Static_Keyword();
-		 * 
-		 * sk.method1(); System.out.println(sk.name); System.out.println(sk.value);
-		 */
+		Static_Keyword sk= new Static_Keyword();
 		
-		method1();
+		System.out.println(sk.grade);
 		
 		System.out.println(value);
 		
 		System.out.println(name);
+		
+		sk.method3();
+		method1();
+		
 		
 	}
 
