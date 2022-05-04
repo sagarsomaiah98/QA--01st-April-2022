@@ -3,22 +3,21 @@ public class Child extends Parent {
 	
 	
 	//method overriding
-	
 	public void method1() {
 		
-		
-		System.out.println(" method 1 in child");
+		System.out.println("modified parent method1 in child class");
 	}
 	
 	
+	
 	public void method3() {
-		System.out.println(" method 3");
+		System.out.println("Child  method 3");
 		
 	}
 	
 	public void method4() {
 		
-		System.out.println("method 4");
+		System.out.println("Child method 4");
 	}
 	
 	

@@ -16,7 +16,7 @@ public class Method_Overloading {
 	
 	public void add(int a, int b,int c, int d) {
 		int res=a+b+c+d;
-		System.out.println("Addition of three numbers is "+res);
+		System.out.println("Addition of four numbers is "+res);
 		
 	}
 	
