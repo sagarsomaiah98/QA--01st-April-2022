@@ -1,11 +1,15 @@
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Scrolling extends TestBase {
+public class Scrolling {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		new TestBase();
 		
+		 System.setProperty("webdriver.chrome.driver","D:\\JARS\\jar_files\\chromedriver\\chromedriver.exe");
+			
+			WebDriver driver= new ChromeDriver();
 		driver.get("https://www.siliconfilter.com/category/reviews/");
 		driver.manage().window().maximize();
 		Thread.sleep(3000);
