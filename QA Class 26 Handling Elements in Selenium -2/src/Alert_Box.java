@@ -9,9 +9,9 @@ public class Alert_Box {
 		// TODO Auto-generated method stub
 
 
-		System.setProperty("webdriver.chrome.driver", "D:\\JANBASK\\OCT_WEEKDAY_BATCH\\DRIVERS\\chromedriver.exe");
-		
-		WebDriver driver= new ChromeDriver();
+		 System.setProperty("webdriver.chrome.driver", "S:\\JANBASK\\JANBASK_WORKSPACE\\QA- 01st April 2022\\JARS &  DRIVERS\\chromedriver.exe");
+			
+			WebDriver driver= new ChromeDriver();
 
 		driver.manage().window().maximize();
 		driver.get("https://www.testandquiz.com/selenium/testing.html");

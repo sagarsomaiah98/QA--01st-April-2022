@@ -11,9 +11,9 @@ public class Double_Click {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		
-      System.setProperty("webdriver.chrome.driver","D:\\JARS\\jar_files\\chromedriver\\chromedriver.exe");
-		
-		WebDriver driver= new ChromeDriver();
+		 System.setProperty("webdriver.chrome.driver", "S:\\JANBASK\\JANBASK_WORKSPACE\\QA- 01st April 2022\\JARS &  DRIVERS\\chromedriver.exe");
+			
+			WebDriver driver= new ChromeDriver();
 		
 		
 	

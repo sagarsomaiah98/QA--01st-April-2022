@@ -12,7 +12,7 @@ public class KeyBoard_Functions {
 		
 		
 		
-		System.setProperty("webdriver.chrome.driver","D:\\JARS\\jar_files\\chromedriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","S:\\JANBASK\\JANBASK_WORKSPACE\\QA- 01st April 2022\\JARS &  DRIVERS\\chromedriver.exe");
 		
 		WebDriver driver= new ChromeDriver();
 
@@ -35,7 +35,7 @@ public class KeyBoard_Functions {
         Thread.sleep(3000);
         
         // Copy the Current Address
-        driver.findElement(By.id("currentAddress")).sendKeys(Keys.chord(Keys.CONTROL, "a"));
+        driver.findElement(By.id("currentAddress")).sendKeys(Keys.chord(Keys.CONTROL,"a"));
         Thread.sleep(3000);
        
        
