@@ -1,4 +1,4 @@
-
+package com.janbask.read.Data;
 
 public class Read {
 
@@ -6,7 +6,7 @@ public class Read {
 		// TODO Auto-generated method stub
 		
 		
-		Xls_Reader xls= new Xls_Reader("D:\\JANBASK\\JULY_WEEKDAY_BATCH_2\\Data_Parameterization\\src\\TestData\\TESTSUITE.xlsx");
+		Xls_Reader xls= new Xls_Reader("S:\\JANBASK\\BATCH 1\\DataParameterization\\src\\main\\java\\TestData\\TESTSUITE.xlsx");
 		int total_Rows=xls.getRowCount("GMAIL");
 		
 		/*
@@ -32,10 +32,9 @@ public class Read {
 	
 		for(int k=1;k<=total_Rows;k++) {
 			
-			   System.out.print( xls.getCellData("GMAIL", "TCID", k)+"  ");
-			  
-			  System.out.print( xls.getCellData("GMAIL", "TESTCASE", k)+"  ");
-		      System.out.print( xls.getCellData("GMAIL", "STATUS", k)+"  ");
+			   System.out.print( xls.getCellData("GMAIL", "TCID", k));
+			  System.out.print( xls.getCellData("GMAIL", "TESTCASE", k));
+		      System.out.print( xls.getCellData("GMAIL", "STATUS", k));
 			System.out.println();
 			
 		}
