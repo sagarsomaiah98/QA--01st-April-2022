@@ -9,9 +9,9 @@ public class C {
 		
 		  Default_Example d = new Default_Example(); 
 		  
-		  d.method1();
-		  System.out.println(d.age); 
-		  System.out.println(d.name) ;
+		//  d.method1();
+		//  System.out.println(d.age); 
+		//  System.out.println(d.name) ;
 		 
 	}
 
