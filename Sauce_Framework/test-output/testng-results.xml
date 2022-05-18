@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-17T22:13:39 GMT-04:00" name="Default suite" finished-at="2022-05-17T22:13:50 GMT-04:00" duration-ms="11263">
+    <groups>
+    </groups>
+    <test started-at="2022-05-17T22:13:39 GMT-04:00" name="Default test" finished-at="2022-05-17T22:13:50 GMT-04:00" duration-ms="11263">
+      <class name="com.sauce.tests.LoginTest">
+        <test-method signature="in_valid_login()[pri:0, instance:com.sauce.tests.LoginTest@a530d0a]" started-at="2022-05-17T22:13:39 GMT-04:00" name="in_valid_login" finished-at="2022-05-17T22:13:47 GMT-04:00" duration-ms="8202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- in_valid_login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.sauce.tests.LoginTest@a530d0a]" started-at="2022-05-17T22:13:47 GMT-04:00" name="teardown" finished-at="2022-05-17T22:13:47 GMT-04:00" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="valid_login()[pri:0, instance:com.sauce.tests.LoginTest@a530d0a]" started-at="2022-05-17T22:13:47 GMT-04:00" name="valid_login" finished-at="2022-05-17T22:13:49 GMT-04:00" duration-ms="2403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valid_login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.sauce.tests.LoginTest@a530d0a]" started-at="2022-05-17T22:13:49 GMT-04:00" name="teardown" finished-at="2022-05-17T22:13:50 GMT-04:00" duration-ms="289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.sauce.tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
